@@ -11,5 +11,8 @@ print ("Hello")
 sin(45*Double.pi/180)
 let number:Int = 10
 let pi: Double = 3.14159
+var variableNumber: Int = 42
+variableNumber = 0
+variableNumber = 1_000_000
 
 
