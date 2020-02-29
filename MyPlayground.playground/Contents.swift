@@ -31,8 +31,9 @@ let oneThirdLongString="One Third is \(oneThird)as a demical"
 let coordinate=(x:2.1,y:3.2)
 let x1=coordinate.x
 let y1=coordinate.y
-
-
-
-
-
+let a=5
+let b=10
+let min=a<b ? a:b
+let max=a>b ? a:b
+print(max)
+print(min)
