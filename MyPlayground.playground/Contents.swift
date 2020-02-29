@@ -26,11 +26,11 @@ let totalCost:Double=hourlyrate*Double(hourworked)
 var massage="Hello"+"My name is"
 var name="Matt"
 massage += name
-
-
-
-
-
+let oneThird=1.0/3.0
+let oneThirdLongString="One Third is \(oneThird)as a demical"
+let coordinate=(x:2.1,y:3.2)
+let x1=coordinate.x
+let y1=coordinate.y
 
 
 
