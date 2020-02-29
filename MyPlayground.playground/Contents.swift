@@ -23,9 +23,9 @@ print(evenodd)
 let hourlyrate:Double=19.5
 let hourworked:Int=10
 let totalCost:Double=hourlyrate*Double(hourworked)
-
-
-
+var massage="Hello"+"My name is"
+var name="Matt"
+massage += name
 
 
 
