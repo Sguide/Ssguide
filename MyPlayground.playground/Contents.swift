@@ -17,6 +17,9 @@ variableNumber = 1_000_000
 var counter: Int = 0
 counter += 1
 counter -= 1
+let testnumber = 45
+let evenodd = testnumber % 2
+print(evenodd)
 
 
 
