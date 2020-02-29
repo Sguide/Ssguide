@@ -20,6 +20,19 @@ counter -= 1
 let testnumber = 45
 let evenodd = testnumber % 2
 print(evenodd)
+let hourlyrate:Double=19.5
+let hourworked:Int=10
+let totalCost:Double=hourlyrate*Double(hourworked)
+
+
+
+
+
+
+
+
+
+
 
 
 
