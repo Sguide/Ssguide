@@ -14,5 +14,9 @@ let pi: Double = 3.14159
 var variableNumber: Int = 42
 variableNumber = 0
 variableNumber = 1_000_000
+var counter: Int = 0
+counter += 1
+counter -= 1
+
 
 
