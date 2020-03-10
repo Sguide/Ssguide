@@ -26,6 +26,46 @@ print("Coin 2 =",Coin2)
 print("Coin =",Coin1)
 print("*********************************")
 
+var Number = 11
+print("Number =",Number)
+if(Number%2==0)
+{
+ Number = Number-1
+if Number%3==0 && Number%5==0
+{
+    print("Can divide 3 and 5")
+    }
+else if Number%3==0 && Number%5 != 0
+{
+    print("Can divide 3 but Can't divide 5")
+    }
+else if Number%3 != 0 && Number%5==0
+{
+    print("Can't divide 3 but Can divide 5")
+    }
+else if Number%3 != 0 && Number%5 != 0
+{
+    print("Can't divide 3 and 5")
+    }
+}
+else if(Number%2 != 0)
+{
+ Number = Number+1
+    if Number%2==0 && Number%6==0
+    {
+     print("Can divide 2 and 6")
+    }
+    else if Number%2==0 && Number%6 != 0{
+        print("Can divide 2 but Can't divide 6")
+    }
+    else if Number%2 != 0 && Number%6==0{
+        print("Can't divide 2 but Can divide 6")
+    }
+    else if Number%2 != 0 && Number%6 != 0{
+        print("Can't divide 2 and 6")
+    }
+}
+
 
 
 
