@@ -66,6 +66,15 @@ else if(Number%2 != 0)
     }
 }
 
+print("สูตรคูณแม่ 1-12")
+for No in 1...12
+{
+    for Number in 1...12
+    {
+    print("ผลคูณแม่ 1-12 =",No*Number)
+    }
+}
+
 
 
 
